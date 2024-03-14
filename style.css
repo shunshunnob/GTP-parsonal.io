@@ -1,0 +1,1105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section-inner {
+  width: 81vw;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.header {
+  background-image: url(../img/zim-kv-img.png);
+  background-size: cover;
+  height: 150vw;
+  position: relative;
+}
+.header .btn-menu {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  z-index: 2;
+}
+.header .header-nav-list {
+  width: 0;
+  padding-top: 80px;
+  overflow: hidden;
+  background: #000;
+  transition: 0.4s;
+  height: 75Vh;
+  position: absolute;
+  right: 0;
+  transition: 0.3s;
+}
+.header .header-nav-list.open-menu {
+  width: 100%;
+}
+.header .header-nav-item {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 5%;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 8Vh;
+}
+
+#merit {
+  background-color: #f5f5f5;
+}
+#merit .section-ttl {
+  font-size: 20vw;
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#merit .merit-txt-main {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 1%;
+  font-size: 4vw;
+}
+#merit .merit-img-box {
+  margin-top: 6%;
+}
+#merit .logo-img-box {
+  margin: 4% 20%;
+}
+#merit .merit-txt-sub {
+  text-align: center;
+  font-size: 4vw;
+  font-family: "Inter", sans-serif;
+}
+#merit .form {
+  border: 3px solid #000;
+  margin-top: 8%;
+}
+#merit h3.form-ttl {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 5vw;
+  font-family: "Inter", sans-serif;
+}
+#merit .btn {
+  display: flex;
+  margin: 7vw 4vw 0 4vw;
+  padding-left: 8vw;
+  border: 1px solid #000;
+  border-radius: 30px;
+  height: 12vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  align-items: center;
+}
+#merit .btn-icon {
+  width: 6vw;
+  height: 6vw;
+}
+#merit .btn-txt {
+  font-size: 4.8vw;
+  padding-left: 2vw;
+}
+#merit .merit-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin: 5vw 0;
+}
+#merit .form-merit-icon-box {
+  width: 17vw;
+  height: 17vw;
+  border: 1px solid #000;
+  border-radius: 10vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#merit .merit-icon-item img {
+  width: 5.5vw;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+#merit .merit-icon-item .money {
+  width: 8vw;
+  margin-left: 26%;
+  margin-top: 12%;
+}
+#merit .merit-icon-item p {
+  font-size: 2.8vw;
+  text-decoration: underline;
+  text-align: center;
+}
+#merit .merit-icon-item .merit-icon-txt1 {
+  margin-top: 6%;
+  line-height: 1.3;
+}
+#merit .merit-icon-item .merit-icon-txt2 {
+  margin-top: 6%;
+}
+#merit .merit-icon-item .merit-icon-txt3 {
+  margin-top: 9%;
+}
+
+#facility {
+  height: 88vw;
+}
+#facility .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 20vw;
+  margin-top: 5%;
+}
+#facility .facility-txt-main {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 2px;
+  font-size: 4vw;
+}
+#facility .facility-wrap {
+  margin-top: 32px;
+  position: relative;
+}
+#facility .facility-img-box1 {
+  width: 44.5vw;
+  height: 35vw;
+  margin-left: 47%;
+}
+#facility .facility-img-box2 {
+  width: 44.5vw;
+  height: 35vw;
+  position: absolute;
+  top: 15vw;
+}
+
+#coach {
+  height: 100vw;
+}
+#coach .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 20vw;
+}
+#coach .coach-txt-main {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 4vw;
+}
+#coach .swiper {
+  max-width: 90%;
+  margin-top: 4vw;
+}
+#coach .swiper .swiper-wrapper {
+  height: auto;
+}
+#coach .swiper .swiper-wrapper .swiper-slide {
+  height: auto;
+  padding: 0 15px 0 22px;
+}
+#coach .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+#coach .swiper .swiper-button-next {
+  right: 1px;
+}
+#coach .swiper .swiper-button-next img {
+  width: 7vw;
+  height: 7vw;
+}
+#coach .swiper .swiper-button-next:after {
+  content: none;
+}
+#coach .swiper .swiper-button-prev {
+  left: 1px;
+}
+#coach .swiper .swiper-button-prev img {
+  width: 7vw;
+  height: 7vw;
+}
+#coach .swiper .swiper-button-prev::after {
+  content: none;
+}
+
+#class {
+  margin-top: 15vw;
+}
+#class .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 20vw;
+}
+#class .class-txt-main {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+#class .class-item {
+  margin-top: 12%;
+}
+#class .class-img-box {
+  margin-right: 80px;
+}
+#class .class-img-box img {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+#class .__second {
+  margin-left: 80px;
+}
+#class .__second .class-img-box {
+  margin-right: 0;
+}
+#class .class-name {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 3.5vw;
+  font-weight: bold;
+  margin-top: 2%;
+}
+#class .class-txt {
+  font-size: 2.4vw;
+  margin-top: 1.5%;
+}
+#class .form {
+  border: 3px solid #000;
+  margin-top: 8%;
+}
+#class h3.form-ttl {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 5vw;
+  font-family: "Inter", sans-serif;
+}
+#class .btn {
+  display: flex;
+  margin: 7vw 4vw 0 4vw;
+  padding-left: 8vw;
+  border: 1px solid #000;
+  border-radius: 30px;
+  height: 12vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  align-items: center;
+}
+#class .btn-icon {
+  width: 6vw;
+  height: 6vw;
+}
+#class .btn-txt {
+  font-size: 4.8vw;
+  padding-left: 2vw;
+}
+#class .merit-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin: 5vw 0;
+}
+#class .form-merit-icon-box {
+  width: 17vw;
+  height: 17vw;
+  border: 1px solid #000;
+  border-radius: 10vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#class .merit-icon-item img {
+  width: 5.5vw;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+#class .merit-icon-item .money {
+  width: 9vw;
+  margin-left: 26%;
+  margin-top: 12%;
+}
+#class .merit-icon-item p {
+  font-size: 2.8vw;
+  text-decoration: underline;
+  text-align: center;
+}
+#class .merit-icon-item .merit-icon-txt1 {
+  margin-top: 6%;
+  line-height: 1.3;
+}
+#class .merit-icon-item .merit-icon-txt2 {
+  margin-top: 6%;
+}
+#class .merit-icon-item .merit-icon-txt3 {
+  margin-top: 9%;
+}
+
+#plan {
+  background-color: #F5F5F5;
+}
+#plan .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 20vw;
+  padding-top: 5%;
+}
+#plan .plan-txt-main {
+  font-family: "Inter", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 3vw;
+}
+#plan .ms-fee {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 4.2vw 10vw 4.2vw 10vw;
+}
+#plan .ms-fee .ms-fee-ttl {
+  padding: 1.7vw 0;
+  text-align: center;
+  font-size: 3.8vw;
+  font-family: "Inter", sans-serif;
+}
+#plan .ms-fee .ms-fee-price {
+  text-align: center;
+  font-size: 4.5vw;
+  padding: 3vw 0;
+}
+#plan .ms-fee .ms-fee-alart {
+  font-size: 3.2vw;
+  text-align: center;
+  padding-bottom: 3.4vw;
+}
+#plan .ticket-wrap .ticket-wrap-ttl {
+  font-size: 4vw;
+  font-family: "Inter", sans-serif;
+}
+#plan .ticket-wrap .ticket-txt {
+  font-size: 3vw;
+  font-family: "Inter", sans-serif;
+  margin-top: 1%;
+}
+#plan .ticket-wrap .ticket-table {
+  margin-top: 2%;
+  height: 50vw;
+  width: 82vw;
+  background-color: #fff;
+}
+#plan .ticket-wrap .ticket-table .ticket-menu-row {
+  border: 1px solid;
+  font-size: 3vw;
+}
+#plan .ticket-wrap .ticket-table .ticket-menu-row .ticket-menu-corce-min {
+  text-align: center;
+  border: 1px solid;
+  width: 40%;
+  padding: 1vw 0;
+  vertical-align: middle;
+}
+#plan .ticket-wrap .ticket-table .ticket-menu-row .ticket-menu-corce-number {
+  border: 1px solid;
+  text-align: center;
+  font-size: 2.5vw;
+  vertical-align: middle;
+}
+#plan .ticket-wrap .ticket-table .ticket-price-row .ticket-menu-price-number {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3vw;
+  font-weight: bold;
+}
+#plan .ticket-wrap .ticket-table .ticket-price-row .ticket-menu-price-min {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.1vw;
+  padding: 0.8vw 1vw;
+  font-weight: bold;
+}
+#plan .monthly-wrap .monthly-wrap-ttl {
+  margin-top: 10%;
+  font-size: 4vw;
+  font-family: "Inter", sans-serif;
+}
+#plan .monthly-wrap .monthly-txt {
+  margin-top: 1%;
+  font-size: 3vw;
+  font-family: "Inter", sans-serif;
+}
+#plan .monthly-wrap .monthly-table {
+  height: 50vw;
+  width: 82vw;
+  margin-top: 2%;
+  background-color: #fff;
+}
+#plan .monthly-wrap .monthly-table .monthly-menu-row {
+  border: 1px solid;
+  font-size: 2.6vw;
+}
+#plan .monthly-wrap .monthly-table .monthly-menu-row .monthly-menu-corce-number {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+}
+#plan .monthly-wrap .monthly-table .monthly-menu-row .monthly-menu-corce-min {
+  text-align: center;
+  border: 1px solid;
+  width: 40%;
+  vertical-align: middle;
+  padding: 1vw 0;
+  font-size: 3vw;
+}
+#plan .monthly-wrap .monthly-table .monthly-price-row .monthly-menu-price-number {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.1vw;
+  font-weight: bold;
+}
+#plan .monthly-wrap .monthly-table .monthly-price-row .monthly-menu-price-min {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.1vw;
+  padding: 0.8vw 1vw;
+  font-weight: bold;
+}
+#plan .form {
+  border: 3px solid #000;
+  margin-top: 8%;
+}
+#plan h3.form-ttl {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 5vw;
+  font-family: "Inter", sans-serif;
+}
+#plan .btn {
+  display: flex;
+  margin: 7vw 4vw 0 4vw;
+  padding-left: 8vw;
+  border: 1px solid #000;
+  border-radius: 30px;
+  height: 12vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  align-items: center;
+}
+#plan .btn-icon {
+  width: 6vw;
+  height: 6vw;
+}
+#plan .btn-txt {
+  font-size: 4.8vw;
+  padding-left: 2vw;
+}
+#plan .merit-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin: 5vw 0;
+}
+#plan .form-merit-icon-box {
+  width: 17vw;
+  height: 17vw;
+  border: 1px solid #000;
+  border-radius: 10vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#plan .merit-icon-item img {
+  width: 5.5vw;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+#plan .merit-icon-item .money {
+  width: 9vw;
+  margin-left: 26%;
+  margin-top: 12%;
+}
+#plan .merit-icon-item p {
+  font-size: 2.8vw;
+  text-decoration: underline;
+  text-align: center;
+}
+#plan .merit-icon-item .merit-icon-txt1 {
+  margin-top: 6%;
+  line-height: 1.3;
+}
+#plan .merit-icon-item .merit-icon-txt2 {
+  margin-top: 6%;
+}
+#plan .merit-icon-item .merit-icon-txt3 {
+  margin-top: 9%;
+}
+
+#access .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 14vw;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+#access .location-map iframe {
+  width: 100vw;
+  height: 40vw;
+}
+#access .locationinfo-txt {
+  font-size: 5vw;
+  font-family: "Signika Negative", sans-serif;
+  border-bottom: 1px solid #393939;
+  display: inline-block;
+}
+#access .location-info {
+  margin-top: 8%;
+}
+#access .access-nav-list {
+  display: flex;
+  margin: 10% 20px 20px 0;
+  justify-content: center;
+  gap: 10vw;
+}
+#access .access-nav-item {
+  width: 12vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding-bottom: 1%;
+}
+
+#contact {
+  background-color: #F5F5F5;
+}
+#contact .section-ttl {
+  text-align: center;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  text-underline-offset: 2%;
+  color: #393939;
+  font-family: "Simonetta", serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 15vw;
+  padding-top: 8%;
+}
+#contact label {
+  display: block;
+  margin-bottom: 1px;
+  margin-top: 8px;
+  font-size: 4vw;
+  margin-top: 4vw;
+}
+#contact input[type=text], #contact input[type=email], #contact textarea {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 2vw;
+  padding: 0.8vw 6vw 0.8vw 0.2vw;
+}
+#contact textarea[name=inquiry] {
+  padding: 1vw 30vw 25vw 1vw;
+  font-size: 3vw;
+}
+#contact input[type=submit] {
+  color: #000;
+  cursor: pointer;
+  margin-top: 24px;
+  line-height: 1;
+  border-radius: 2.5vw;
+  font-size: 5vw;
+  padding: 3vw;
+  background-color: #fff;
+  text-align: center;
+  border: 1px rgb(0, 0, 0) solid;
+}
+
+@media screen and (min-width: 600px) {
+  .section-inner {
+    padding-bottom: 5%;
+  }
+  .header {
+    background-image: url(../img/zim-kv-img-PC.svg);
+    background-color: #f5f5f5;
+    height: 56vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header .header-nav .btn-menu img {
+    filter: brightness();
+    width: 3.5vw;
+  }
+  .header .header-nav .header-nav-list {
+    height: 54.8vw;
+    padding-top: 10vw;
+  }
+  .header .header-nav .header-nav-list .header-nav-item {
+    font-size: 2vw;
+    height: 6.5vw;
+  }
+  .header .header-nav .header-nav-list.open-menu {
+    width: 50%;
+  }
+  #merit .section-inner {
+    width: 91vw;
+  }
+  #merit .section-inner .section-ttl {
+    height: 0;
+    visibility: hidden;
+  }
+  #merit .section-inner .merit-txt-main {
+    height: 0;
+    visibility: hidden;
+  }
+  #merit .section-inner .merit-img-box {
+    height: 0;
+    margin: 0;
+  }
+  #merit .section-inner .logo-img-box {
+    margin: 1% 36% 1% 34%;
+  }
+  #merit .section-inner .merit-txt-sub {
+    font-size: 1.5vw;
+  }
+  #merit .section-inner .form {
+    margin: 3% 20%;
+  }
+  #merit .section-inner .form .form-ttl {
+    font-size: 2vw;
+  }
+  #merit .section-inner .form .form-ttl br {
+    display: none;
+  }
+  #merit .section-inner .form .form-btn-list {
+    display: flex;
+  }
+  #merit .section-inner .form .form-btn-list .btn {
+    height: 4vw;
+    margin: 3.5% 0 0 2.5%;
+    width: 25vw;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  #merit .section-inner .form .form-btn-list .btn span {
+    display: none;
+  }
+  #merit .section-inner .form .form-btn-list .btn .btn-txt {
+    background-image: url(../img/carender-icon-img.svg);
+    background-repeat: no-repeat;
+    font-size: 1.6vw;
+    padding: 5% 0 5% 23%;
+    background-size: 10%;
+    background-position: 2.2vw 0.85vw;
+  }
+  #merit .section-inner .form .merit-icon-list {
+    margin: 5% 0 5% 6vw;
+    justify-content: start;
+    gap: 0;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    margin: 0 3vw;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item img {
+    width: 3.5vw;
+    margin-left: 27%;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .money {
+    width: 4.5vw;
+    margin-left: 21%;
+    margin-top: 12%;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item p {
+    font-size: 1.1vw;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt2 {
+    margin-top: 6%;
+  }
+  #merit .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt3 {
+    margin-top: 9%;
+  }
+  #facility {
+    height: 60vw;
+  }
+  #facility .section-inner .section-ttl {
+    font-size: 8vw;
+  }
+  #facility .section-inner .facility-txt-main {
+    font-size: 1.8vw;
+  }
+  #facility .section-inner .facility-wrap {
+    margin-top: 2.5vw;
+  }
+  #facility .section-inner .facility-wrap .facility-img-box1 {
+    height: 30vw;
+    width: 36vw;
+  }
+  #facility .section-inner .facility-wrap .facility-img-box1 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 1vw;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+  }
+  #facility .section-inner .facility-wrap .facility-img-box2 {
+    height: 30vw;
+    width: 36vw;
+    top: 10vw;
+    left: 11vw;
+  }
+  #facility .section-inner .facility-wrap .facility-img-box2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 1vw;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+  }
+  #coach {
+    height: 52vw;
+  }
+  #coach .section-ttl {
+    font-size: 9vw;
+  }
+  #coach .coach-txt-main {
+    font-size: 1.8vw;
+    margin-top: -1.2vw;
+  }
+  #coach .swiper .swiper-wrapper .swiper-slide {
+    background-image: none;
+  }
+  #coach .swiper .swiper-pagination {
+    bottom: -0.2vw;
+  }
+  #coach .swiper .swiper-pagination .swiper-pagination-bullet {
+    height: 1vw;
+    width: 1vw;
+  }
+  #coach .swiper .swiper-button-prev {
+    width: 3vw;
+    height: 3vw;
+  }
+  #coach .swiper .swiper-button-prev img {
+    width: 3vw;
+    height: 3vw;
+  }
+  #coach .swiper .swiper-button-next {
+    width: 3vw;
+    height: 3vw;
+  }
+  #coach .swiper .swiper-button-next img {
+    width: 3vw;
+    height: 3vw;
+  }
+  #class {
+    margin-top: 0;
+  }
+  #class .section-inner {
+    width: 81vw;
+  }
+  #class .section-inner .section-ttl {
+    font-size: 9vw;
+  }
+  #class .section-inner .class-txt-main {
+    font-size: 1.9vw;
+    margin-top: -1.1vw;
+  }
+  #class .section-inner .class-wrap .class-item {
+    margin-top: 3vw;
+  }
+  #class .section-inner .class-wrap .class-item .class-img-box {
+    margin-right: 38vw;
+  }
+  #class .section-inner .class-wrap .class-item .class-name {
+    font-size: 1.3vw;
+  }
+  #class .section-inner .class-wrap .class-item .class-txt {
+    font-size: 1vw;
+    margin-top: 0.5vw;
+  }
+  #class .section-inner .class-wrap .__second {
+    margin-left: 38vw;
+  }
+  #class .section-inner .class-wrap .__second .class-img-box {
+    margin-right: 0vw;
+  }
+  #class .section-inner .form {
+    margin: 5% 16% 0 16%;
+  }
+  #class .section-inner .form .form-ttl {
+    font-size: 2vw;
+  }
+  #class .section-inner .form .form-ttl br {
+    display: none;
+  }
+  #class .section-inner .form .form-btn-list {
+    display: flex;
+  }
+  #class .section-inner .form .form-btn-list .btn {
+    height: 4vw;
+    margin: 3.5% 0 0 2.5%;
+    width: 25vw;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  #class .section-inner .form .form-btn-list .btn span {
+    display: none;
+  }
+  #class .section-inner .form .form-btn-list .btn .btn-txt {
+    background-image: url(../img/carender-icon-img.svg);
+    background-repeat: no-repeat;
+    font-size: 1.6vw;
+    padding: 5% 0 5% 23%;
+    background-size: 10%;
+    background-position: 2.2vw 0.85vw;
+  }
+  #class .section-inner .form .merit-icon-list {
+    margin: 5% 0 5% 6vw;
+    justify-content: start;
+    gap: 0;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    margin: 0 3vw;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item img {
+    width: 3.5vw;
+    margin-left: 27%;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .money {
+    width: 4.5vw;
+    margin-left: 21%;
+    margin-top: 12%;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item p {
+    font-size: 1.1vw;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt2 {
+    margin-top: 6%;
+  }
+  #class .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt3 {
+    margin-top: 9%;
+  }
+  #plan .section-inner {
+    width: 81vw;
+  }
+  #plan .section-inner .section-ttl {
+    font-size: 9vw;
+  }
+  #plan .section-inner .plan-txt-main {
+    font-size: 1.7vw;
+    text-align: center;
+    margin-top: -1.1vw;
+  }
+  #plan .section-inner .ms-fee {
+    margin: 4vw 27vw 4vw 27vw;
+  }
+  #plan .section-inner .ms-fee .ms-fee-ttl {
+    font-size: 1.5vw;
+    padding: 0.7vw 0;
+  }
+  #plan .section-inner .ms-fee .ms-fee-price {
+    font-size: 2.1vw;
+    padding: 1.8vw 0;
+  }
+  #plan .section-inner .ms-fee .ms-fee-alart {
+    font-size: 1.5vw;
+    padding-bottom: 1.8vw;
+  }
+  #plan .section-inner .ticket-wrap {
+    margin-left: 20vw;
+  }
+  #plan .section-inner .ticket-wrap .ticket-wrap-ttl {
+    font-size: 1.3vw;
+  }
+  #plan .section-inner .ticket-wrap .ticket-txt {
+    font-size: 1vw;
+    margin-top: 0;
+  }
+  #plan .section-inner .ticket-wrap .ticket-table {
+    width: 41vw;
+    height: 17vw;
+  }
+  #plan .section-inner .ticket-wrap .ticket-table .ticket-menu-row .ticket-menu-corce-number {
+    font-size: 1.2vw;
+  }
+  #plan .section-inner .ticket-wrap .ticket-table .ticket-menu-row .ticket-menu-corce-min {
+    width: 38%;
+    font-size: 1.3vw;
+    vertical-align: middle;
+    padding: 0.3vw 0;
+  }
+  #plan .section-inner .ticket-wrap .ticket-table .ticket-price-row .ticket-menu-price-number {
+    font-size: 1.2vw;
+  }
+  #plan .section-inner .ticket-wrap .ticket-table .ticket-price-row .ticket-menu-price-min {
+    font-size: 1.2vw;
+    padding: 0;
+  }
+  #plan .section-inner .monthly-wrap {
+    margin-left: 20vw;
+  }
+  #plan .section-inner .monthly-wrap .monthly-wrap-ttl {
+    font-size: 1.3vw;
+    margin-top: 2.5vw;
+  }
+  #plan .section-inner .monthly-wrap .monthly-txt {
+    font-size: 1vw;
+    margin-top: 0;
+  }
+  #plan .section-inner .monthly-wrap .monthly-table {
+    width: 41vw;
+    height: 17vw;
+  }
+  #plan .section-inner .monthly-wrap .monthly-table .monthly-menu-row .monthly-menu-corce-number {
+    font-size: 1.2vw;
+  }
+  #plan .section-inner .monthly-wrap .monthly-table .monthly-menu-row .monthly-menu-corce-min {
+    width: 38%;
+    font-size: 1.3vw;
+    vertical-align: middle;
+    padding: 0.3vw 0;
+  }
+  #plan .section-inner .monthly-wrap .monthly-table .monthly-price-row .monthly-menu-price-number {
+    font-size: 1.2vw;
+  }
+  #plan .section-inner .monthly-wrap .monthly-table .monthly-price-row .monthly-menu-price-min {
+    font-size: 1.2vw;
+    padding: 0;
+  }
+  #plan .section-inner .form {
+    margin: 5% 16% 0 16%;
+  }
+  #plan .section-inner .form .form-ttl {
+    font-size: 2vw;
+  }
+  #plan .section-inner .form .form-ttl br {
+    display: none;
+  }
+  #plan .section-inner .form .form-btn-list {
+    display: flex;
+  }
+  #plan .section-inner .form .form-btn-list .btn {
+    height: 4vw;
+    margin: 3.5% 0 0 2.5%;
+    width: 25vw;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  #plan .section-inner .form .form-btn-list .btn span {
+    display: none;
+  }
+  #plan .section-inner .form .form-btn-list .btn .btn-txt {
+    background-image: url(../img/carender-icon-img.svg);
+    background-repeat: no-repeat;
+    font-size: 1.6vw;
+    padding: 5% 0 5% 23%;
+    background-size: 10%;
+    background-position: 2.2vw 0.85vw;
+  }
+  #plan .section-inner .form .merit-icon-list {
+    margin: 5% 0 5% 6vw;
+    justify-content: start;
+    gap: 0;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    margin: 0 3vw;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item img {
+    width: 3.5vw;
+    margin-left: 27%;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .money {
+    width: 4.5vw;
+    margin-left: 21%;
+    margin-top: 12%;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item p {
+    font-size: 1.1vw;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt2 {
+    margin-top: 6%;
+  }
+  #plan .section-inner .form .merit-icon-list .form-merit-icon-box .merit-icon-item .merit-icon-txt3 {
+    margin-top: 9%;
+  }
+  #access .section-ttl {
+    font-size: 8vw;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  #access .location-map iframe {
+    width: 100vw;
+    height: 40vw;
+  }
+  #access .section-inner {
+    width: 81vw;
+  }
+  #access .section-inner .location-info .locationinfo-txt {
+    font-size: 2.5vw;
+  }
+  #access .section-inner .access-nav .access-nav-list {
+    gap: 2vw;
+  }
+  #access .section-inner .access-nav .access-nav-list .access-nav-item {
+    width: 6vw;
+    margin: 0;
+    margin-left: 8vw;
+  }
+  #contact .section-inner {
+    width: 58vw;
+  }
+  #contact .section-inner .section-ttl {
+    font-size: 9vw;
+    padding-top: 3%;
+  }
+  #contact .section-inner label {
+    font-size: 1.8vw;
+    margin-top: 1.8vw;
+  }
+  #contact .section-inner input[type=text], #contact .section-inner input[type=email], #contact .section-inner textarea {
+    border-radius: 1vw;
+    padding: 0.8vw 3vw 0.8vw 0.2vw;
+    font-size: 1.5vw;
+  }
+  #contact .section-inner textarea[name=inquiry] {
+    padding: 0.2vw 12vw 10vw 0.2vw;
+    font-size: 1.2vw;
+  }
+  #contact .section-inner input[type=submit] {
+    margin-top: 3%;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    padding: 0.8vw;
+  }
+  #contact .section-inner input[type=submit]:hover {
+    background-color: #393939;
+    color: #f5f5f5;
+  }
+}/*# sourceMappingURL=style.css.map */
